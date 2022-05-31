@@ -1,0 +1,23 @@
+.rectangulo {
+	border: 1px solid #acacdf;
+	width: 70%;
+	height: 20vh;
+	margin: 3em auto;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	.rec_denominador {
+		border: 1px solid #5454f7;
+		width: 100%;
+	}
+	.rec_denominador.rec_numerador {
+		animation: fill-numerador 1s forwards;
+	}
+	&.correct{
+		animation: yeaph 1s forwards;
+	}
+	&.wrong{
+		animation: shake 1s forwards;
+	}
+}

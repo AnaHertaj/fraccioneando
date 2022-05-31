@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="author" content="">
+  <meta name="description" content="FRACCIONEANDO">
+  <meta name="keywords" content="JS">
+  <title>FRACCIONEANDO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+  <section class="section section--dame-fraccion">
+    <div class="fraccion_group">
+      <div class="fraccion">
+          <div class="numerador"></div>
+          <div class="separador"></div>
+          <div class="denominador"></div> 
+      </div>
+      <div class="btn btn--dame-fraccion">Dame una <br> fracción</div>
+        <div class="fraccion fraccion2 hidden">
+            <div class="numerador2"></div>
+            <div class="separador2"></div>
+            <div class="denominador2"></div>  
+        </div>
+    </div>
+    <div class="resultado hidden"></div>
+    <div class="resultado2 hidden"></div>
+  </section>
+  <section class="section section--dibuja-fraccion">
+    <div class="dibuja_group">
+     <ul class="rectangulo">
+      </ul> 
+      <div class="btn_group">
+        <div class="btn_dibuja btn_dibuja_denominador suma"><span>+</span> DENOMINADOR</div>
+        <div class="btn_dibuja btn_dibuja_denominador resta"><span>-</span> DENOMINADOR</div>
+        <div class="space"></div>
+        <div class="btn_dibuja btn_dibuja_numerador suma"><span>+</span> NUMERADOR</div>
+        <div class="btn_dibuja btn_dibuja_numerador resta"><span>-</span> NUMERADOR</div>
+      </div>
+    </div>
+    <p class="center small">(Usa los modificadores y comprueba si has representado bien la fracción)</p>
+  </section>
+  <section class="section section--compara-fraccion">
+    <div class="btn_group">
+      <div class="btn btn_comparador">COMPRoBAR</div>
+    </div>
+    <audio class="audio-correct" src="audio/Correct-answer.mp3"></audio>
+    <audio class="audio-wrong" src="audio/Wrong-answer.mp3"></audio>
+  </section>
+  <script src="js/script.js"></script> 
+</body>
+</html>

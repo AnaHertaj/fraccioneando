@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+
+ html {
+    font-family: 'Fredoka One', sans-serif;
+    background-color: beige;
+    letter-spacing: 0.15em; 
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none; 
+  }
+
+  ul,ol{
+    list-style-type: none;
+    padding: 0;
+  }
+  p{
+    line-height: 1.5;
+    margin: 0;
+    width: 80%;
+    margin: auto;
+  }
+  h1,h2,h3,h4,h5,h6{
+    line-height: 1.2;
+    margin:0;
+  }
